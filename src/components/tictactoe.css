@@ -1,0 +1,80 @@
+body{
+    background-color: black;
+}
+td{
+    height:150px;
+    width: 150px;
+    border:1px solid lightblue;
+    text-align: center;
+    font-size: 90px;
+    color: white;
+}
+table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+h1{
+    color:white;
+    margin-top: 2%;
+}
+.text{
+    text-align: center;
+    position: relative;
+    top: 70px;
+}
+p{
+    font-size: 25px;
+    color: white;
+}
+.active{
+    background-color: rgb(231, 123, 123);
+}
+
+/* .btn{
+    position: relative;
+    background-color: rgb(33, 35, 37);
+    width: 20%;
+    padding: 10px;
+    border-radius: 10px;
+}
+.new{
+    position: absolute;
+    bottom:  40px;
+    transform: rotate(20deg);
+    background-color: yellow;
+    color: black;
+    border-radius: 10px;
+    padding: 8px 15px;
+    font-size: 15px;
+} */
+
+@media screen and (max-width: 480px) {
+    table{
+        margin: 10px;
+        height: 60vh;
+    }
+    td{
+        height:100px;
+        width: 100px;
+        font-size: 45px;
+    }
+    .text{
+        top: 100px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .text{
+        top: 0;
+    }
+}    
+@media screen and (max-width: 1024px) {
+    .text{
+        top: 0;
+    }
+    table{
+    
+        height: 73vh;
+    }
+}  
